@@ -1,13 +1,13 @@
 <template>
   <footer id="footer">
-    <div className="footer__inner">
+    <div class="footer__inner">
       <div>
         <h3>email</h3>
-        <a href="mailto:sshin4882@naver.com">sshin4882@naver.com</a>
+        <a href="mailto:eodnjs9605@gmail.com">eodnjs9605@gmail.com</a>
       </div>
       <div>
         <h3>kakao</h3>
-        <a href="/">sshin4882</a>
+        <a href="/">kimdaewonn</a>
       </div>
       <div>
         <h3>social</h3>
@@ -36,9 +36,9 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  color: var(--white);
+  color: var(--black);
   background-color: var(--bg-light);
-  border-top: 1px solid var(--bg-dark-border);
+  border-top: 1px solid var(--bg-light-border);
   z-index: 1000;
 }
 
@@ -52,11 +52,11 @@
 
     &:nth-child(1) {
       flex: 1 1 30%;
-      border-right: 1px solid var(--bg-dark-border);
+      border-right: 1px solid var(--bg-light-border);
     }
     &:nth-child(2) {
       flex: 1 1 30%;
-      border-right: 1px solid var(--bg-dark-border);
+      border-right: 1px solid var(--bg-light-border);
     }
     &:nth-child(3) {
       flex: 1 1 40%;
@@ -65,21 +65,18 @@
   h3 {
     padding: 20px;
   }
-
   h3,
   ul,
   li {
     display: inline-block;
-    padding: 10px;
   }
-
   a {
     display: inline-block;
     margin: 23px;
     color: var(--black);
     opacity: 0.6;
     position: relative;
-    transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s;
     text-transform: capitalize;
 
     &:hover {
@@ -93,7 +90,7 @@
       bottom: 0;
       width: 100%;
       height: 1px;
-      background: var(--white);
+      background: var(--black);
       transform: scaleX(0);
       transition: all 0.3s ease;
     }

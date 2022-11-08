@@ -13,6 +13,7 @@
     <FooterCont />
   </div>
 </template>
+
 <script>
 import HeaderCont from "@/components/HeaderCont.vue";
 import FooterCont from "@/components/FooterCont.vue";
@@ -28,7 +29,7 @@ export default {
       titles: [
         { text: "we provide" },
         { text: "visual coding" },
-        { text: "soltuions" },
+        { text: "solutions" },
         { text: "for you API" },
       ],
     };
@@ -36,17 +37,18 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .main__inner {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   height: 100vh;
-  color: var(--white);
+  color: var(--black);
 
   > div {
-    font-size: 8.8vw;
+    font-size: 9vw;
+    white-space: nowrap;
     line-height: 0.9;
     text-transform: uppercase;
   }

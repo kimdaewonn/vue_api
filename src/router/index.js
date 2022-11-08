@@ -3,6 +3,7 @@ import MainView from "../views/MainView.vue";
 import AboutView from "../views/AboutView.vue";
 import ReferView from "../views/ReferView.vue";
 import YoutubeView from "../views/YoutubeView.vue";
+import MovieView from "../views/MovieView.vue";
 import UnsplashView from "../views/UnsplashView.vue";
 
 const routes = [
@@ -12,22 +13,27 @@ const routes = [
     component: MainView,
   },
   {
-    path: "/About",
+    path: "/about",
     name: "about",
     component: AboutView,
   },
   {
-    path: "/Reference",
-    name: "refer",
+    path: "/reference",
+    name: "reference",
     component: ReferView,
   },
   {
-    path: "/Youtube",
-    name: "youtube",
+    path: "/youtube",
+    name: "Youtube",
     component: YoutubeView,
   },
   {
-    path: "/Unsplash",
+    path: "/movie",
+    name: "movie",
+    component: MovieView,
+  },
+  {
+    path: "/unsplash",
     name: "unsplash",
     component: UnsplashView,
   },

@@ -1,6 +1,6 @@
 <template>
-  <section class="cont__title">
-    <div class="container">
+  <section className="cont__title">
+    <div className="container">
       <h1>
         <strong>{props.title[0]}</strong>
         <em>{props.title[1]}</em>
@@ -8,3 +8,5 @@
     </div>
   </section>
 </template>
+
+<style lang="scss"></style>

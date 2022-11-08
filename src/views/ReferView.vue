@@ -1,5 +1,24 @@
 <template>
-  <div class="refer">
-    <h1>This is an refer page</h1>
+  <div>
+    <HeaderCont />
+    <TitleCont />
+    <FooterCont />
+    <ContactCont />
   </div>
 </template>
+
+<script>
+import HeaderCont from "@/components/HeaderCont.vue";
+import FooterCont from "@/components/FooterCont.vue";
+import TitleCont from "@/components/TitleCont.vue";
+import ContactCont from "@/components/ContactCont.vue";
+
+export default {
+  components: {
+    HeaderCont,
+    FooterCont,
+    TitleCont,
+    ContactCont,
+  },
+};
+</script>
