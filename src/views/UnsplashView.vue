@@ -50,8 +50,8 @@ export default {
     // SearchSplashes();
     const RandomSplashes = () => {
       fetch(
-        "https://api.unsplash.com/photos/random?client_id=MQTjZPliVmEwJE8bRXeYPG83q1gT78-3AjOvYV4HNQk"
-        // "https://api.unsplash.com/photos/random?client_id=r6e6_4ZwiAV0Dc0WvGopVnh2YGoPLi5X-C52UOikVNc&count=20"
+        // "https://api.unsplash.com/photos/random?client_id=MQTjZPliVmEwJE8bRXeYPG83q1gT78-3AjOvYV4HNQk"
+        "https://api.unsplash.com/photos/random?client_id=r6e6_4ZwiAV0Dc0WvGopVnh2YGoPLi5X-C52UOikVNc&count=20"
       )
         .then((response) => response.json())
         .then((result) => (splashes.value = result))
