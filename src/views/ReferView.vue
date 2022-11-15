@@ -10,10 +10,10 @@
           <ul className="refer__list">
             <li v-for="refer in refers" :key="refer.title">
               <a href="/">
-                <span>{{ refer.num }}</span>
-                <span>{{ refer.title }}</span>
-                <span>{{ refer.desc }}</span>
-                <span>{{ refer.descStar }}</span>
+                <span class="num">{{ refer.num }}</span>
+                <span class="title">{{ refer.title }}</span>
+                <span class="desc">{{ refer.desc }}</span>
+                <span class="descStar">{{ refer.descStar }}</span>
               </a>
             </li>
           </ul>
@@ -95,7 +95,7 @@ export default {
         text-align: center;
         border-right: 1px solid var(--bg-dark-border);
       }
-      .name {
+      .title {
         flex: 1 1 20%;
         border-right: 1px solid var(--bg-dark-border);
       }
@@ -103,7 +103,7 @@ export default {
         flex: 1 1 65%;
         border-right: 1px solid var(--bg-dark-border);
       }
-      .star {
+      .descStar {
         flex: 1 1 10%;
         text-align: center;
       }
